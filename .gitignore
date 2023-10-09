@@ -5,6 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
+*.exe
 
 # Distribution / packaging
 .Python
@@ -163,4 +164,4 @@ cython_debug/
 *.gif
 *.png
 *frames
-
+*.dat
