@@ -15,6 +15,6 @@ Aquest mètode empra la recta tangent al punt per millorar la convergència al z
 
 
 ## Observacions
-Si voleu convertir el gig/mp4 que generen els scripts trobareu un "Gif_to_pngs". Això ho empro per tal de posar els exemples al PDF.
+Si voleu convertir el gif/mp4 que generen els scripts trobareu un "Gif_to_pngs". Això ho empro per tal de posar els exemples al PDF.
 
 
