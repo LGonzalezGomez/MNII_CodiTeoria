@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 *.exe
+*.ilk
+*.obj
+*.pdb
+
 
 # Distribution / packaging
 .Python
@@ -165,3 +169,5 @@ cython_debug/
 *.png
 *frames
 *.dat
+
+.vscode
