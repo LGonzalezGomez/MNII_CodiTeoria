@@ -1,0 +1,12 @@
+
+#les linies que comencen per esterisc, estan comentades
+f(x)=sin(x) #declarem una funció
+
+
+plot f(x) #plotem la funció
+
+#Felicitats! heu fet el vostre primer plot!
+
+
+
+

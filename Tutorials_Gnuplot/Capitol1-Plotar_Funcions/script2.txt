@@ -1,0 +1,16 @@
+f(x)=sin(x) #declarem una funció
+g(x)=cos(x) #declarem una segona funció
+
+set xrange[0:1] #establim el rang de x que plotarem
+set yrange[0:1] #establim el rang de y que plotarem
+
+set xlabel "x" #nom de l'eix x
+set ylabel "f(x)" #nom de l'eix y
+
+plot f(x), g(x) #plotem totes dues funcions alhora. Separant per comes podeu fer tants de gràfics en la mateixa finestra com vulgueu
+
+
+
+
+
+

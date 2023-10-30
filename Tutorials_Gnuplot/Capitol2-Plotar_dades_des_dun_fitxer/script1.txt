@@ -1,0 +1,36 @@
+unset key #treu la llegenda, en cas que vulguem
+
+
+
+set style line 1 lc rgb "red" lw 2 lt 1 pt 7 ps 1
+set style line 2 lc rgb "blue" lw 2 lt 1 pt 7 ps 1
+
+#Declarem dos estils de corba
+
+set xrange[0:30] #establim el rang de x que plotarem
+set yrange[0:1.6] #establim el rang de y que plotarem
+
+set xlabel "{\Symbol, t}" #nom de l'eix x, li diem tau que és el temps normalitzat
+set ylabel "X, Y" #nom de l'eix y, X i Y que eren les poblacions normalitzades
+
+#HEU DE POSAR LA DRECERA DEL FITXER QUE VOLEU PLOTAR
+file = "C:/Users/Tutorials_Programacio_C_Gnuplot/Tutorials_Gnuplot/Capitol2-Plotar_dades_des_dun_fitxer/poblacions.dat" 
+
+plot file u 1:2 w l ls 1, file u 1:3 w l ls 2
+
+#la comanda anterior us graficarà l'evolució temporal de X i y en funció de tau. 
+#Per graficar un fitxer de dades posem plot "drecera fitxer".
+#Es pot graficar tot tipus d'arxiu de dades, no només . dat.
+#Amb la comanda u x:y indiquem quina columna del fitxer farà de x i quina farà de y.
+#La resta funciona com amb els plots de funcions. Podem escollir fer el plot with lines, withs points...
+
+pause-1 #Perquè el plot se quedi obert fins que no tanqueu la finestra
+
+#EXERCICI: Feu un plot de X vs Y.
+
+
+
+
+
+
+
