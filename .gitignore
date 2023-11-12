@@ -171,5 +171,5 @@ cython_debug/
 *.dat
 
 .vscode
-EDOS/Lotka_Volterra_RK.cpp
-EDOS/Lotka_Volterra_RK.py
+EDOS/Lotka_Volterra_RK4.cpp
+EDOS/Lotka_Volterra_RK4.py
