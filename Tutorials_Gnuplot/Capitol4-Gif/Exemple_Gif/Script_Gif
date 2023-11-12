@@ -1,0 +1,25 @@
+set terminal gif animate delay 20 size 1000,420 
+#Per generar un gif utilitzarem el terminal giff animate
+#El número darrere del delay, és el delay entre fotogrames
+set output "output.gif"
+
+
+#El do for és el bucle for en gnuplot
+#fara un loop on l'index i anirà de 0 a 200
+#cada iteracio del loop fara un fotograma de l'animacio
+#dins del loop poseu el codi dels grafics que voleu que formin l'animacio
+#En aquest exemple us adjunto les dades per fer un gif exemple
+
+do for [i=0:50]{
+
+set termoption enhanced
+
+
+set yrange[-1.1:1.1]
+set xlabel "{r(l)}"
+set ylabel "{M/M_t}"
+set xtics out nomirror
+set ytics out nomirror
+plot "Sky".i.".txt" u 1:4
+}
+

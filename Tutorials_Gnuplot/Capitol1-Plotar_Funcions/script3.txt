@@ -1,0 +1,30 @@
+unset key #treu la llegenda, en cas que vulguem
+
+
+f(x)=sin(x) #declarem una funció
+g(x)=cos(x) #declarem una segona funció
+k(x)=tan(x) #declarem una tercera funció
+
+#A continuació declararem 3 tipus de línies. Quan declarem un estil de corba, també pot ser d'una linia formada per punts
+
+set style line 1 lc rgb "black" lw 2 lt 1 pt 3 ps 1 # lc(line color), lw (line width), lt (line type), pt (point type), ps (point size)
+
+# amb aquests paràmetres modifiquem l'aparença de la corba de la nostra gràfica. Proveu diferents paràmetres i observeu com canvia la gràfica.
+
+set xrange[0:1] #establim el rang de x que plotarem
+set yrange[0:1] #establim el rang de y que plotarem
+
+set xlabel "x" #nom de l'eix x
+set ylabel "f(x)" #nom de l'eix y
+
+plot f(x) w l ls 1, g(x) w p ls 1, k(x) w lp ls 1 
+
+#Aquest cop plotem les tres funcions alhora
+#La comanda plot f(x) wl ls 1, vol dir, "plot f(x) with lines using lins style 1"
+#similarment, "w p" vol dir "with points" and "w lp" "with lines and points".
+#Definiu un nou linestyle i utilitzeu estils deiferents per a les diferents funcions. 
+
+
+
+
+
